@@ -9,5 +9,6 @@ ticket = yt.Ticker('^BVSP')
 
 df = ticket.history(interval='1d', start='2018-01-01', end=data_atual)
 
+print(df[['Close']])
 print(df.tail(2))
 
