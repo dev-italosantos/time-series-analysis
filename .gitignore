@@ -1,0 +1,23 @@
+# Arquivos de compilação
+*.o
+*.out
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*.bak
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios
+bin/
+build/
+dist/
+.vscode/
+
+# Dependências e pacotes gerados
+node_modules/
+vendor/
