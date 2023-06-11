@@ -1,7 +1,7 @@
 import yfinance as yf
 from datetime import datetime, timedelta
 
-tickers = ['VIVT3.SA', 'CSAN3.SA', 'SANB11.SA', 'SANB11.SA']  # Exemplo com algumas ações
+tickers = ['VIVT3.SA', 'CSAN3.SA', 'SANB11.SA', 'SANB11.SA']
 
 data_atual = datetime.now().date()
 
